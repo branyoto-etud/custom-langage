@@ -1,0 +1,12 @@
+
+int f1(int *i, char *c){
+    reade(i);
+    readc(c);
+    return 0;
+}
+
+
+int main(void) {
+    int i; char c;
+    return f1(&i, &c);
+}

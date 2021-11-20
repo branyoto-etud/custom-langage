@@ -1,0 +1,15 @@
+/* gen-code.tpc */
+
+/* Test file for TPC */
+    int somme,produit,quotient,reste,difference ;
+    char letter, digit, punct;
+    
+int main(void)  {
+   somme=12;
+   produit=24;
+   quotient=24/12;
+   somme=produit+quotient;
+   difference=somme-1;
+   produit=somme*somme;
+   reste=(-somme+produit)/(quotient+difference)%5;
+}

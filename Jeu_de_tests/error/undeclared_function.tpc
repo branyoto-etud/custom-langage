@@ -1,0 +1,6 @@
+/* call undeclared function */
+
+int main(void){
+    test();
+    return 0;
+}

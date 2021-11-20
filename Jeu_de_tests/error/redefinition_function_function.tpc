@@ -1,0 +1,9 @@
+/* function - function */
+
+int main(void){
+    return 0;
+}
+
+int main(int a){
+    return 0;
+}

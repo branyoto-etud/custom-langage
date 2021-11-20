@@ -1,0 +1,5 @@
+int main(void){
+    int i;
+    print(&i);
+    return 1;
+}

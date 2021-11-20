@@ -1,0 +1,13 @@
+int main(void) {
+    int a, *b;
+    char c, *d;
+    a = 1;
+    c = 'a';
+    
+    d = c;
+    c = d;
+    b = a;
+    a = b;
+    
+    return 0;
+}

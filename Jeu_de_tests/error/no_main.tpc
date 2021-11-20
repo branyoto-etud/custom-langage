@@ -1,0 +1,7 @@
+/* pas de main */
+
+int a;
+
+int function(void){
+    return 256*2;
+}

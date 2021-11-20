@@ -1,0 +1,21 @@
+
+int f1(int *i, char *c){
+    return 0;
+}
+
+
+int main(void) {
+    int i; char c;
+    reade(i);
+    readc(c);
+    print('a');
+    print('0');
+    print(' ');
+    print('D');
+    print('\t');
+    print('\n');
+    print(';');
+    print('\'');
+    print('\\');
+    return f1(&i, &c);
+}

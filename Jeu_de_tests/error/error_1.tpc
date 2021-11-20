@@ -1,0 +1,44 @@
+
+
+int r1, r2;
+int r3;
+char truc, *munuche, *ok, cava;
+char bien;
+
+int main(void) {
+    int r1, r2;
+    int r3;
+    
+    reade(r1);
+    readc(r1);
+    
+    r2 = !r2;
+    r2 = &r2;
+    r2 = 'a';
+    r2 = chouette();
+    
+    return r3;
+}
+
+int *fonction1(int *a, char b, int c) {
+    char truc, *munuche, *ok, cava;
+    char bien;
+    
+    bien = az || er && ty != ui == op < qs <= df >gh >= jk * lm / wx % + 1;
+    
+    return *chouette(iyvheb,eibveiyrb);
+}
+
+void fonction2(char* a, int* b, char    c) {
+    int essai;
+    
+    while(essai<0){
+        print(essai);
+    }
+    if(a<'a')
+        print('a');
+    else
+        print('\n');
+    
+    return ;
+}

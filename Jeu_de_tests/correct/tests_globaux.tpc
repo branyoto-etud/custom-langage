@@ -1,0 +1,94 @@
+
+int main(void) {
+    int a, b, c, *d, i;
+    char g;
+    g='y';
+    
+    /* inferieur, superieur, egal, inegal */
+    b = 1;
+    a = -5;
+    c = 1;
+    print(a<=b);
+    print(a<b);
+    print(a>b);
+    print(a>=b);
+    print(c>=b);
+    print(c<=b);
+    print(a==b);
+    print(a!=b);
+    print(c==b);
+    print(c!=b);
+    
+    /* not */
+    a=4;
+    print(a);
+    print(!a);
+    a=0;
+    print(a);
+    print(!a);
+    
+    /* modulo, division, multiplication */
+    a=10;b=2;
+    print(a/b);
+    print(a%b);
+    print(a*b);
+    b=3;
+    print(a/b);
+    print(a%b);
+    print(a*b);
+    
+    b=4;
+    c=2;
+    print(b/c);
+    b=-4;
+    c=2;
+    print(b/c);
+    b=4;
+    c=-2;
+    print(b/c);
+    b=-4;
+    c=-2;
+    print(b/c);
+    
+    /* adresse */
+    d=&a;
+    print(*d);
+    
+    /* while */
+    i=0;
+    while(i<10){
+        print(i);
+        i = i+1;
+    }
+    
+    /* and, or */
+    a=1;b=0;
+    print(a && a);
+    print(a && b);
+    print(b || b);
+    print(b || a);
+    
+    /* if, else */
+    a=1;b=0;
+    if(b*10){
+        print(a);
+    }
+    else{
+        print(b);
+    }
+    if(a){
+        print('y');
+    }
+    
+    
+    print(a);
+    reade(a);
+    print(a);
+    print(g);
+    readc(g);
+    print(g);
+    
+    return 0;
+}
+
+

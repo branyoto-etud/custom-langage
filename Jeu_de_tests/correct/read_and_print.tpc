@@ -1,0 +1,17 @@
+
+int main(void) {
+    int a;
+    char b;
+    
+    print(-1234);
+    print(1234);
+    print('a');
+    
+    reade(a);
+    readc(b);
+    
+    print(a);
+    print(b);
+    
+    return 0;
+}
